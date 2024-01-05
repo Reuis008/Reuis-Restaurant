@@ -12,6 +12,7 @@ import LunchDiningTwoToneIcon from "@mui/icons-material/LunchDiningTwoTone";
 import { Link } from "react-router-dom";
 import MenuOpenTwoToneIcon from "@mui/icons-material/MenuOpenTwoTone";
 import "../../styles/Header.css";
+
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   // hndle menu click
@@ -30,6 +31,7 @@ const Header = () => {
       >
         <LunchDiningTwoToneIcon />
         Restaurant
+        
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
@@ -73,7 +75,8 @@ const Header = () => {
               style={{ fontFamily: "cursive",display:"flex" ,alignItems:'center' }}
             >
               <LunchDiningTwoToneIcon />
-              Resturant
+              Restaurant
+             
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul

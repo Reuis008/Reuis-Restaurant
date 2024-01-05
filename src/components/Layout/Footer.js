@@ -38,7 +38,7 @@ const Footer = () => {
             },
           }}
         >
-          All Rights Reserved &copy; Tech
+          All Rights Reserved &copy; 
         </Typography>
       </Box>
     </>
